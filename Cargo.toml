@@ -1,0 +1,16 @@
+[package]
+name = "skydive"
+version = "0.1.0"
+authors = ["Varunml3 <66573927+Varunml3@users.noreply.github.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+name = "skydive"
+crate-type = ["cdylib"]
+
+
+[dependencies.pyo3]
+version = "0.12"
+features = ["extension-module"]
